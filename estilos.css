@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:900|Open+Sans');
+
+
 :root {
   --jumbotron-padding-y: 3rem;
 }
@@ -7,6 +10,8 @@
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
   background-color: #fff;
+    
+    
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -14,6 +19,14 @@
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
+
+.jumbotron {
+    
+ background-repeat: repeat;
+    background-image: url('img/teardrop_tuxe_glossy_pattern_porcelain_mosaic_5_.jpg');
+   
+}
+
 
 .jumbotron p:last-child {
   margin-bottom: 0;
@@ -38,6 +51,48 @@ footer p {
 
 .bg-fondoazul {
     
-background-color:midnightblue;
+background-color:darkslateblue;
+    
+}
+
+.bg-fondoazulosc {
+    
+    
+    background-color: midnightblue;
+    
+    
+}
+
+
+h1,h2,h3,h4 {
+    
+    font-family: 'Muli', sans-serif, 900;
+    
+}
+
+p {
+    
+   font-family: 'Open Sans', sans-serif; 
+    
+    
+}
+
+.text-grisclaro {
+    
+    color: darkgray;
+    
+}
+
+.card img{
+    
+    filter: grayscaled(1);
+    transition: all ease 2s;
+    
+    
+}
+
+.card:hover img {
+    
+    filter:grayscale(0);
     
 }
